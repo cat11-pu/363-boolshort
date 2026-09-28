@@ -1,0 +1,16 @@
+{
+  "budget": 2,
+  "bad_name_code": "E_BAD_NAME",
+  "bad_value_code": "E_BAD_VALUE",
+  "bad_expr_code": "E_BAD_EXPR",
+  "unknown_code": "E_UNKNOWN",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "vars": [], "records": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "set", "name": "a", "value": 1 },
+    { "id": 2, "kind": "set", "name": "b", "value": 0 },
+    { "id": 3, "kind": "set", "name": "c", "value": 1 },
+    { "id": 4, "kind": "eval", "text": "a|b&c" },
+    { "id": 5, "kind": "eval", "text": "b&c" }
+  ]
+}
